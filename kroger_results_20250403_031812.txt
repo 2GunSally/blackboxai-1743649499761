@@ -1,0 +1,1 @@
+test@example.com:password123 - API Error: 403 - {"error":"invalid_client","error_description":"client does not have access to password grant_type"}
