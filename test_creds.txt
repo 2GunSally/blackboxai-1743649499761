@@ -1,0 +1,3 @@
+testuser1@example.com:password1
+testuser2@example.com:password2
+validuser@kroger.com:realpassword
