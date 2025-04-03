@@ -1,0 +1,29 @@
+Kroger API Redirect URI Requirements:
+
+1. Production Web App:
+https://yourdomain.com/auth/kroger/callback
+
+2. Development Environment:
+https://localhost:3000/auth/callback
+(or)
+http://localhost:8000/auth/callback 
+
+3. Mobile/Desktop Apps:
+com.yourapp://oauth-redirect
+(or)
+yourapp://callback
+
+Important Notes:
+- Must use HTTPS for production URIs
+- Localhost allowed for development only
+- Custom URI schemes allowed for mobile/native apps
+- Exact match required (including trailing slashes)
+- Max 5 redirect URIs per application
+- Wildcards not permitted
+
+Registration Steps:
+1. Go to Kroger Developer Portal
+2. Create new application
+3. Add your redirect URIs
+4. Save changes
+5. Use the registered URIs in your OAuth flow
