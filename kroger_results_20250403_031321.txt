@@ -1,0 +1,3 @@
+testuser1@example.com:password1 - client does not have access to password grant_type
+testuser2@example.com:password2 - client does not have access to password grant_type
+validuser@kroger.com:realpassword - client does not have access to password grant_type
