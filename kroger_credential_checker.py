@@ -7,7 +7,8 @@ import os
 import sys
 import time
 from datetime import datetime
-from free_proxy import FreeProxy
+from fp.fp import FreeProxy
+
 import requests
 
 # Configure logging
